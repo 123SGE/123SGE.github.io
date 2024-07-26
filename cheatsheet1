@@ -1,0 +1,71 @@
+<!--DOCTYPE html-->
+
+<html>
+
+<head>
+  <title>My Reference</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+  <div class="header">
+    <h1>&lt;HTML&gt</h1>
+    <h3>REFERENCE SHEET</h3>
+  </div>
+</header>
+
+<body>
+  <table>
+    <thead>
+      <td class="headerright">&lt;HTML&gt</td>
+      <td class="headerright">Name</td>
+      <td>Description</td>
+    </thead>
+    <tr>
+      <td>&lt;h1&gt</td>
+      <td>Heading 1</td>
+      <td>This is the largest of the Headings</td>
+    </tr>
+      <tr>
+      <td>&lth2&gt</td>
+      <td>Heading 2</td>
+      <td>This the second larget of the Headings</td>
+    </tr>
+    <tr>
+      <td>&lt;h3&gt</td>
+      <td>Heading 3</td>
+      <td>This is the third largest of the Headings</td>
+    </tr>
+    <tr>
+      <td>&lt;h4&gt</td>
+      <td>Heading 4</td>
+      <td>This is the fourth largest of the Headings</td>
+    </tr>
+    <tr>
+      <td>&lt;h5&gt</td>
+      <td>Heading 5</td>
+      <td>This is the fifth largest of the Headings</td>
+    </tr>
+    <tr>
+      <td>&lth6&gt</td>
+      <td>Heading 6</td>
+      <td>This is the smallest of the Headingg, but it is larger than &lt;p&gt</td>
+    </tr>
+    <tr>
+      <td>&lt;p&gt</td>
+      <td>Paragraph</td>
+      <td>This will start a basic line of code to write a paragraph within</td>
+    </tr>
+    <tfoot>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tfoot>    
+  </table>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
