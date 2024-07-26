@@ -1,0 +1,25 @@
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse; /*this ensures that the td cell borders merge together*/
+  border: 5px solid black;
+} 
+
+thead {
+  border:5px solid black;
+  color: red;
+}
+
+.headerright {
+  border-right: 5px solid black;
+}
