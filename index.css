@@ -5,6 +5,10 @@
   text-decoration: underline; /*underlines class="link" items*/
 }
 
+a:hover /*when hovering the mouse over an <a> element, the following effects will occur*/ {
+  color: green; 
+}
+
 p {
   border: /*I don't fully understand how this one works yet*/
 }
