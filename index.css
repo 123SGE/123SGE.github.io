@@ -1,12 +1,30 @@
 /*this is where my CSS code will go for "./index.html" */  
-.link {
+.link:visited /*the link status indicators don't need to only apply to <a> tags*/ {
   background-color: black; /*This changes the area behind class="link" items to black in a highlighter-like fashion*/
   color: yellow; /*This changes the color of class="link" items to yellow*/
   text-decoration: underline; /*underlines class="link" items*/
 }
 
+a /* when left alone, the following effects will occur to <a> elements*/ {
+  color: blue;
+}
+
+a:link {
+  /*used to indicate that there is a link*/
+}
+
 a:hover /*when hovering the mouse over an <a> element, the following effects will occur*/ {
   color: green; 
+  curso: pointer; /*this changes the icon of the mouse to further obvious interactivity*/
+  text-decoration: none; /*removes default underlining from hyperlink*/
+}
+
+a:active {
+  /*...not sure what this one is yet...*/
+}
+
+a:visited {
+  /*indicates that a link has already been visited*/
 }
 
 p {
