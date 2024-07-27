@@ -1,4 +1,10 @@
 /*this is where my CSS code will go for "./index.html" */  
+.link {
+  background-color: black; /*This changes the area behind class="link" items to black in a highlighter-like fashion*/
+  color: yellow; /*This changes the color of class="link" items to yellow*/
+  text-decoration: underline; /*underlines class="link" items*/
+}
+
 p {
-  text-decoration: underline; /*underlines paragraph items*/
+  border: /*I don't fully understand how this one works yet*/
 }
