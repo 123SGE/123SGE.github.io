@@ -125,3 +125,12 @@ breadcrumb > li {
   border-color: transparent;
   border-left-color: darkcyan;
 }*/
+
+/*If you have multiple in-line block you'd like to display in line, change "display:" to "flex;"
+In the same sense, inline-flex can place multiple sets of divs into the same line if all pixels allow for it
+The justify-content: item also permits use of #flexstart {
+  [align left to right]
+	justify-content: flex-start; (shoves content to center of <div>), flex-end;(shoves content to end of <div>), center;(centers content in div), space-around; (spaces content neatly, centered and with spaces on the side), and space-between; (spaces content similarly to space-around without the room on the edges)
+  [align vertical]
+	align-itmes: flex-start; (top of <div>), flex-end; (bottom of <div>), center; (veritically centered in <div>), baseline; (bottom content of all items will align with one another), stretch; (if possible, the items will stretch from top to bottom of the container (this is the default value; elements with a specified height will not stretch; elements with a minimum height or no height specified will stretch).
+*/
