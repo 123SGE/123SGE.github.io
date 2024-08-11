@@ -133,4 +133,15 @@ The justify-content: item also permits use of #flexstart {
 	justify-content: flex-start; (shoves content to center of <div>), flex-end;(shoves content to end of <div>), center;(centers content in div), space-around; (spaces content neatly, centered and with spaces on the side), and space-between; (spaces content similarly to space-around without the room on the edges)
   [align vertical]
 	align-itmes: flex-start; (top of <div>), flex-end; (bottom of <div>), center; (veritically centered in <div>), baseline; (bottom content of all items will align with one another), stretch; (if possible, the items will stretch from top to bottom of the container (this is the default value; elements with a specified height will not stretch; elements with a minimum height or no height specified will stretch).
+  [fit items to look more naturally fitting]
+	flex-grow: 1;, flex-grow: 2;, flex-shrink: 1;, flex-shrink: 2;, flex-basis: (allows dimensions to be spcified for flex-grow and flex-shrink), etc
+	flex: (allows for all of this to be run in one line and is different from display: flex) (these 3 values are declared in the order of flex-grow, flex-shrink, then flex-basis in this specific order) (flex-shrink is the only value that can't be input without first inputting the flex-grow value to its default 0 due to this) (do not include commas, only spaces for these values prior to the ;)
+  [move items to the next line when necessary]
+	flex-wrap: wrap;, nowrap (default value, same as not inputting a flex-wrap rule), wrap reverse; (wraps the end <div> above the rest), 
+  []
+	align-content: flex-start (positions at the top of the parent container - no extra space between), flex-end; (positions at the bottom of the parent container with no space between), center;, space-between; (spaces evenly from the top to the bottom of the container with no space above the first or below the last), space-around; (elements will be spaced evenly from the top to the bottom of the container with the same amount of space at the top and bottom and between each element), stretch; (if a minimum height or no height is specified, the rows of elements will stretch to fill the parent container from top to bottom (default value))
+  [adjust horizontal and vertical orderings of <div>'s]
+	flex-direction: row; (elements aligned in order in a horizontal row), row-reverse; (elements align in reverse order in a horizontal row), column; (elements align in top to bottom order in a column), column-reverse; (elements align in bottom to top order in a vertical column)
+  [declare BOTH flex-wrap & flex-direction at the same time]
+	flex-flow: {input flex-wrap element i.e. "column"} {input flex-direction element i.e. wrap};
 */
