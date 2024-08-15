@@ -1,0 +1,199 @@
+html {
+  background-color: black;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: maroon;
+}
+
+.header {
+  position: fixed;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  opacity: 0.75;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  z-index: 1;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  opacity: 0.75;
+}
+
+a {
+  color: seashell;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.75
+  cursor: pointer;
+}
+
+a:active {
+  background-color: black;
+  opacity: 1.0;
+  color: white;
+}
+
+.headerlinks {
+  font-size: 25px;
+  /*text-decoration: underline;*/
+  color: seashell;
+  opacity: 0.75;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 0px 20px;
+}
+
+#Mission {
+  text-decoration: underline;
+  margin-right: 20px;
+}
+/*add hover and visited customizations(?)*/
+#FeaturedTea {
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+#Locations {
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.body {
+  padding-top: 69px;
+  margin: 0px;
+}
+
+.background {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1oszvyv*_gcl_au*NDk2NTk0MDUzLjE3MTg1MDE2Njc.*_ga*MzU5NTA3NDcyNy4xNzE4NTAxNjY0*_ga_3LRZM6TM9L*MTcyMzUwNzUzNy4xNC4xLjE3MjM1MDg1MjEuNjAuMC4w)');
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.spacerbar {
+  padding-top: 250px;
+  background-color: white;
+  opacity: 0.0;
+}
+
+.missionstatementbar {
+  background-color: black;
+  height: 75px;
+}
+
+.missionstatement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+}
+
+.featuredteatitle {
+  color: seashell;
+  background-color: black;
+  opacity: 0.75;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.featuredboxset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.featuredtea {
+  display: flex;
+  justify-content: center;
+}
+
+.featuredboxes {
+  display: flex;
+  flex-flow: wrap column;
+}
+
+.featuredimage {
+  height: 200px;
+  width: 300px;
+}
+
+.featuredtext {
+  color: seashell;
+  background-color: black;
+  opacity: 0.75;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.locationsfull {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*p2py17*_gcl_au*MTgxNzE5NzMzNS4xNzIxMTEzMTg4*_ga*MDc5MjgzMzQ4MS4xNzIxMTEzMTg2*_ga_3LRZM6TM9L*MTcyMzYxODU5OC41MS4xLjE3MjM2MTkxMzYuNTcuMC4w');
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.locationspacer {
+  padding-top: 50px;
+  background-color: white;
+  opacity: 0.0;
+}
+
+.locationstitle {
+  color: seashell;
+  opacity: 0.75;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxtext {
+  color: white;
+  opacity: 0.75;
+  display: flex;
+  justify-content: center;
+}
+
+.contactinfo {
+  color: seashell;
+  opacity: 0.75;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: seashell;
+  opacity: 0.75;
+  padding-left: 20px;
+}
+
+/*For Reference, see the link: https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg?_gl=1*15rlj15*_gcl_au*NjMwNzI4MTI0LjE3MTc3Mzg1ODE.*_ga*MTc1MDgyNzA1MS4xNzE4OTYwMDAy*_ga_3LRZM6TM9L*MTcyMzcwNTg4OC4zNC4wLjE3MjM3MDU4ODguNjAuMC4w */
