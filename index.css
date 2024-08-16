@@ -145,3 +145,18 @@ The justify-content: item also permits use of #flexstart {
   [declare BOTH flex-wrap & flex-direction at the same time]
 	flex-flow: {input flex-wrap element i.e. "column"} {input flex-direction element i.e. wrap};
 */
+
+/* display: grid; & display: inline-grid;
+
+	[columns] - Grids have one column by default - grid-template-columns: (i.e. "100px 50% 200px;", "20% 10% 70%;", "5% 100px 6j9px;" etc)
+		This allows for a specific number of pixels to be used per column or a cerrtain % of page width to be used up per column.
+			Using this system, <div>'s "A","B","C","D","E","F","G" would appear as
+			A B C
+			D E F
+			G
+			if <div>'s were ordered alphabetically
+	[rows] - Grids have as many items as there are divided by columns (i.e. 9 items over one column equals 9 rows, 7 items over 3 colums equals 2.333 rows or 2 rows with one item in the final row) by default - grid-template-rows:
+		Shocking, but the same fundamental concepts can be applied to rows in more of an x-direciton than a y-direction
+	[rows / columns] - grid-template:
+		This simply places rows before columns with a slash and takes care of both of the previous two formatting tools
+*/
