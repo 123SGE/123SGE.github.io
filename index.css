@@ -148,7 +148,7 @@ The justify-content: item also permits use of #flexstart {
 
 /* display: grid; & display: inline-grid;
 
-	[columns] - Grids have one column by default - grid-template-columns: (i.e. "100px 50% 200px;", "20% 10% 70%;", "5% 100px 6j9px;" etc)
+	[columns] - Grids have one column by default - grid-template-columns: (i.e. "100px 50% 200px;", "20% 10% 70%;", "5% 100px 69px;", "3 fr 50% 1fr", etc)
 		This allows for a specific number of pixels to be used per column or a cerrtain % of page width to be used up per column.
 			Using this system, <div>'s "A","B","C","D","E","F","G" would appear as
 			A B C
