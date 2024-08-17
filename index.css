@@ -164,5 +164,17 @@ The justify-content: item also permits use of #flexstart {
 	[minmax function] - "grid-template-row: 100px minmax(100px, 500px) 100px"
 		The above function will create a row with 100px, one ranging from 100px-500px, and one final row 100px.
 		The width and height CSS restrictions must be removed for this to function.
+	[gap] - "gap: {row-gap}px {column-gap}px", "row-gap:", and "column-gap:"
+		The gap function allows for as many gaps to be placed as there are rows or columns (each minus 1 because gaps don't expand to either edge of the grid)
+	[multiple rows/columns] - "grid-row-start:", "grid-row-end:"
+		When editing SPECIFIC items WITHIN the grid, they can take up multiple spaces using these functions to determine where they start and end. 
+			Syntax: "grid-row-start: 1
+				 grid-row-end: 3" would span an item within the grid to include rows 1 and 2
+			Syntax: "grid-row: 1/3" achieves the same result
+		The same idea can be used with columns.
+		"/ span #" function allows grid-{row/column}-start to have "/ span {# of rows item continues on for}", but can also be used "span # / {grid-column/row-end #}"
+			This function helps avoid one-off errors.
 
+		[grid-area:] - Values are interpreted as "grid-area: {grid-row-start #} / {grid-column-start #} / {grid-row-end #} / {grid-column-end #}"
+			"span" can still be used in these contexts
 */
