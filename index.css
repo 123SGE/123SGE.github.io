@@ -159,7 +159,9 @@ The justify-content: item also permits use of #flexstart {
 		Shocking, but the same fundamental concepts can be applied to rows in more of an x-direciton than a y-direction
 	[rows / columns] - grid-template:
 		This simply places rows before columns with a slash and takes care of both of the previous two formatting tools
-	[repeat() function] "repeat ({number of rows or columns}, {size of rows})"
+	[repeat() function] - "repeat ({number of rows or columns}, {size of rows})"
 		This can be used with row / column grid-templates and is used to repeat the number of rows / columns in a format.
+	[minmax function] - "grid-template-row: 100px minmax(100px, 500px) 100px"
+		The above function will create a row with 100px, one ranging from 100px-500px, and one final row 100px. 
 
 */
