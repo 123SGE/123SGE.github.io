@@ -177,4 +177,27 @@ The justify-content: item also permits use of #flexstart {
 
 		[grid-area:] - Values are interpreted as "grid-area: {grid-row-start #} / {grid-column-start #} / {grid-row-end #} / {grid-column-end #}"
 			"span" can still be used in these contexts
+	[grid-template-areas:] - This function can create multiple rows and columns using .item (class) titles to format each by their individual items
+			Syntax: 
+				grid-template-areas: "header header"
+						     "nav nav"
+						     "info services"
+						     "footer footer"
+			- This creates a grid consisting of 5 item / class containers (.header, .nav, .info, .services, & .footer) consisting of 2 columns with four rows in each (the third row contains two individual item / class containers (.info & .services)
+			- This then requires grid-template-row: (4 in this case) , and grid-template-column: (2 in this case)
+			- Within EACH of these item / classes the...[grid-area:] function must be used to specify which item / class / container matches to each item on the grid.
+				Syntax: (continued from above example)
+					.header {
+						grid-area: header;
+					}
+			-...This will automatically span the top two columns in the first row.
+
+			-Overlapping can be achieved by sharing the same grid-area and utilizing the z-index function
+			
+			- To center item cards within columns, use "justify-items: center;" and set the "px" of the container to "width:" to the desired number fewer than the "width" of the column's width.
+
+		- [justify-content: center;] achieves a similar effect involving the entirety of the row as opposed to a singular item within the parental column(s) specified by the child grid item.
+		- [align-items: {start, end, center, stretch, etc};] achieves the content within the container within the grid being fit to a certain area of the container within the grid.
+		- [align-content] can assist with the alignment of rows on the page.
+	...and all four of these tools can be used in tandem with one another.
 */
