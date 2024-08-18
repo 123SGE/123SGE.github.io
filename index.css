@@ -200,4 +200,25 @@ The justify-content: item also permits use of #flexstart {
 		- [align-items: {start, end, center, stretch, etc};] achieves the content within the container within the grid being fit to a certain area of the container within the grid.
 		- [align-content] can assist with the alignment of rows on the page.
 	...and all four of these tools can be used in tandem with one another.
+	[justify-self:] - overides justify-items and specifies how a specific item should position itself along the row axis
+	[align-self:] - overides align-items and specifies how a specific item should position itself along the column axis
+
+	[grid-auto-rows: {#px};] - collaborates with...
+	[grid-auto-columns: {#px};] ... to create an automatic grid from from any additional <div>'s created
+		Syntax: 
+			(html code)
+				<body>
+					<div>Part 1</div>
+					<div>Part 2</div>
+					<div>Part 3</div>
+					<div>Part 4</div>
+					<div>Part 5</div>
+				</body>
+			(css code)
+				body {
+				 display: grid;
+				 grid: repeat(2, 100px) / repeat(2, 150px); 
+				 grid-auto-rows: 50px;
+				}
+		This creates a grid 2x2 with an additional row 5 all at 50 pixels due to the implicitly added <div> ranges referenced against the ruleset
 */
