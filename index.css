@@ -221,4 +221,9 @@ The justify-content: item also permits use of #flexstart {
 				 grid-auto-rows: 50px;
 				}
 		This creates a grid 2x2 with an additional row 5 all at 50 pixels due to the implicitly added <div> ranges referenced against the ruleset
+	[grid-auto-flow:] - "specifies whether new elements should be added to rows or columns, and is declared on grid containers"
+		[row;] - "specifies the new elements should fill rows from left to right and create new rows when there are too many elements (default)"
+		[column;] - "specifies the new elements should fill columns from top to bottom and create new columns when there are too many elements"
+		[dense;] - " this keyword invokes an algorithm that attempts to fill holes earlier in the grid layout if smaller elements are added"
+			- Rows or columns may be paired with dense in this Syntax - "grid-auto-flow: row dense;"
 */
