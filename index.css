@@ -226,4 +226,12 @@ The justify-content: item also permits use of #flexstart {
 		[column;] - "specifies the new elements should fill columns from top to bottom and create new columns when there are too many elements"
 		[dense;] - " this keyword invokes an algorithm that attempts to fill holes earlier in the grid layout if smaller elements are added"
 			- Rows or columns may be paired with dense in this Syntax - "grid-auto-flow: row dense;"
+
+Relative Sizing & Responsive Sites
+
+	[Em] - Represents the font-size of the current element or the default base font-size set by the browser if none is given. 
+		{Historically, "em" represented the width of an "M" in the typeface being used}
+	     - The default size of font in a browser is typically 16 pixels so 2em would = 32px
+	     - Em's can be used in decimal form (i.e. 1.5, 1.7, etc.)
+
 */
