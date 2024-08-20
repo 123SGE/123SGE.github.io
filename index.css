@@ -233,5 +233,13 @@ Relative Sizing & Responsive Sites
 		{Historically, "em" represented the width of an "M" in the typeface being used}
 	     - The default size of font in a browser is typically 16 pixels so 2em would = 32px
 	     - Em's can be used in decimal form (i.e. 1.5, 1.7, etc.)
+	[Rem] - "Root em"
+        - Checks the root element instead of the parent element to determine relative size
+					- In general, this is 16 pixels. To set a different font size (for the <body> for example), use the following...
+						Syntax: html {
+												font-size: 20px;
+											}
+											body {
+											  font-size: 2rem;
 
 */
