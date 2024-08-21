@@ -234,12 +234,50 @@ Relative Sizing & Responsive Sites
 	     - The default size of font in a browser is typically 16 pixels so 2em would = 32px
 	     - Em's can be used in decimal form (i.e. 1.5, 1.7, etc.)
 	[Rem] - "Root em"
-        - Checks the root element instead of the parent element to determine relative size
-					- In general, this is 16 pixels. To set a different font size (for the <body> for example), use the following...
-						Syntax: html {
-												font-size: 20px;
-											}
-											body {
-											  font-size: 2rem;
+	        - Checks the root element instead of the parent element to determine relative size
+		- In general, this is 16 pixels. To set a different font size (for the <body> for example), use the following...
+			Syntax: html {
+					font-size: 20px;
+				     }
+				body {
+				 	font-size: 2rem;
+				     }
+
+	[%] - Used to model box-model non-text html elements (i.e. height, width, padding, border and margins)
+	    - To use subsections within main sections, set the width of the main section (with pixels (px) for example) and use percentages within the subsection css as seen in the following
+			Syntax:
+				.main {
+				  height: 300px;
+				  width: 500px;
+				}
+ 
+				.main .subsection {
+				  height: 50%;
+				  width: 50%;
+				}
+	   - Try not to use % with box model at 100% as it will include container, border, padding and margin and may overflow its parent container
+	[min-width:, max-width:, min-height: & max-height:] - help to limit the minimum and maximum widths and heights of html elements
+				 - typically utilized in px
+	[scaling images and videos] - Common occurance used for scaling videos and images to fit properly on page.
+		Syntax:
+			.container {
+			  width: 50%;	
+			  height: 200px;
+			  overflow: hidden;
+			}
+
+			.container img {
+			  max-width: 100%;
+			  height: auto;
+			  display: block;
+			}
+	[scaling background images] - used to scale background images
+		Syntax
+			body {
+			  background-image: url('#');
+			  background-repeat: no-repeat;
+			  background-position: center;
+			  background-size: cover;
+			}
 
 */
