@@ -280,4 +280,12 @@ Relative Sizing & Responsive Sites
 			  background-size: cover;
 			}
 
+[@media] - a media query is used to adapt certain CSS rules to certain screen sizes (potentially other use cases) to elements within the query such as the <body> element below
+	Syntax
+			@media only screen and (max-width: 480px) {
+	  body {
+ 	   font-size: 12px;
+ 		}
+}
+
 */
