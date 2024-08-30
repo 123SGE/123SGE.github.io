@@ -1,3 +1,83 @@
 /* this is a CSS file for FlexboxCompanysite.html */
 
 /* make sure to include breadcrumbs to navigate the site*/
+
+
+html {
+
+}
+
+body {
+
+}
+
+.nav {
+
+}
+
+.nav h4 /*check syntax just to be cautious*/ {
+
+}
+	
+.title {
+
+}
+
+.title h1 /*check syntax just to be cautious*/ {
+
+}
+
+.mission {
+
+}
+
+.mission h1 /*check syntax just to be cautious*/ {
+
+}
+
+.list {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+
+/*maybe even include differentiations in classes here to identify different li components as differently colored stripes to play with in CSS*/
+
+.team {
+
+}
+
+.team h1 /*check syntax just to be cautious*/ {
+
+}
+
+.Emilio_Shmit {
+
+}
+
+p {
+
+}
+
+.Melissa_Beauveen {
+
+}
+
+.Eric_Dorkner_Jr {
+
+}
+
+footer {
+
+}
+
+h4 {
+
+}
