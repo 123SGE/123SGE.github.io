@@ -1,10 +1,5 @@
-/* this is a CSS file for FlexboxCompanysite.html */
-
-/* make sure to include breadcrumbs to navigate the site*/
-
-
 html {
-
+  background-color: orange;
 }
 
 body {
@@ -12,15 +7,18 @@ body {
 }
 
 .nav {
-
+  background-color: black;
+  margin: 0% auto;
 }
 
-.nav h4 /*check syntax just to be cautious*/ {
-
+.nav h4 {
+  display: inline-flex;
 }
 	
 .title {
-
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
 }
 
 .title h1 /*check syntax just to be cautious*/ {
@@ -36,7 +34,8 @@ body {
 }
 
 .list {
-
+  display: flex;
+  justify-content: center;
 }
 
 ul {
