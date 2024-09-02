@@ -1,95 +1,109 @@
-+/* Universal Styles */
+html {
+  background-color: black;
+}
+
 body {
-  margin: 0px;
-  background-color: whitesmoke;
-  font-family: 'Rock Salt', cursive;
-  text-align: center;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
 }
 
-.secondary-background {
-  background-color: snow;
-}
-
-.tagline {
-  font-family: 'Quicksand', sans-serif;
-  color: lightslategrey;
-  line-height: 125px;
-}
-
-/* Header */
-h1 {
-  margin: 0;
-  background-color: steelblue;
-  line-height: 100px;
-  color: khaki;
-}
-
-h2 {
-  margin: 10px;
-}
-
-/* App Container */
-.container {
-  border: 2px solid snow;
-  display: flex;
-}
-
-/* To Do Section */
-.week {
-  display: inline-flex;
-  flex-grow: 3;
-  flex-direction: column;
-}
-
-.row {
-  min-height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.square {
-  width: 125px;
-  height: 125px;
-  padding: 10px;
+.nav {
+  background-color: black;
+  opacity: 0.75;
+  border-radius: 50px 50px 50px 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.day.square {
-  background-color: steelblue;
-  border: 1px solid white;
-}
-
-.task.square {
-  background-color: khaki;
-  border: 1px solid white;
-}
-
-.task p {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-}
-
-/* Reminders */
-.reminders {
-  background-color: khaki;
+.nav h4 {
   display: inline-flex;
-  flex-grow: 2;
 }
 
-.reminders h3 {
-  width: 100%;
-  margin: 10px;
+.nav a {
+  color: purple;
+  opacity: 0.75;
+}
+
+.nav a:hover {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 5px;
   color: black;
-  line-height: 90px;
-  font-size: 24px;
 }
 
-/* Footer */
-footer {
-  font-size: 24px;
+.mission {
+  background-color: black;
+  color: purple;
+  opacity: 0.5;
+  border-radius: 50px 10px 50px 10px;
+  margin: 10px 50px;
+  padding: 25px;
 }
+
+#missionheader {
+  display: flex;
+  justify-content: center;
+}
+
+#missiondatement {
+  display: flex;
+  justify-content: center;
+}
+
+#missionstatement {
+  display: flex;
+  justify-content: center;
+} 
+
+
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+/*maybe even include differentiations in classes here to identify different li components as differently colored stripes to play with in CSS*/
+
+.listimage {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.team {
+
+}
+
+.team h1 /*check syntax just to be cautious*/ {
+
+}
+
+.Emilio_Shmit {
+
+}
+
+/* this may require a redo using an id=""p {
+
+}
+*/
+.Melissa_Beauveen {
+
+}
+
+.Eric_Dorkner_Jr {
+
+}
+
+.contact {
+  display: flex;
+}
+
+/* redo to fit within footer h4 {
+
+} /*
