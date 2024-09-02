@@ -1,53 +1,77 @@
 html {
-  background-color: orange;
+  background-color: black;
 }
 
 body {
-
+  background-color: white;
+  color: black;
+  opacity: 0.75;
 }
 
 .nav {
   background-color: black;
-  margin: 0% auto;
+  opacity: 0.75;
+  border-radius: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav h4 {
   display: inline-flex;
 }
-	
-.title {
-  display: flex;
-  justify-content: center;
-  flex-grow: 2;
+
+.nav a {
+  color: purple;
+  opacity: 0.75;
 }
 
-.title h1 /*check syntax just to be cautious*/ {
-
+.nav a:hover {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 5px;
+  color: black;
 }
 
 .mission {
-
+  background-color: black;
+  color: purple;
+  opacity: 0.5;
+  border-radius: 50px 10px 50px 10px;
+  margin: 10px 50px;
+  padding: 25px;
 }
 
-.mission h1 /*check syntax just to be cautious*/ {
-
-}
-
-.list {
+#missionheader {
   display: flex;
   justify-content: center;
 }
 
-ul {
-
+#missiondatement {
+  display: flex;
+  justify-content: center;
 }
 
-li {
+#missionstatement {
+  display: flex;
+  justify-content: center;
+} 
 
+
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
-
 
 /*maybe even include differentiations in classes here to identify different li components as differently colored stripes to play with in CSS*/
+
+.listimage {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50px 50px 50px 50px;
+}
 
 .team {
 
@@ -61,10 +85,10 @@ li {
 
 }
 
-p {
+/* this may require a redo using an id=""p {
 
 }
-
+*/
 .Melissa_Beauveen {
 
 }
@@ -73,10 +97,10 @@ p {
 
 }
 
-footer {
-
+.contact {
+  display: flex;
 }
 
-h4 {
+/* redo to fit within footer h4 {
 
-}
+} /*
