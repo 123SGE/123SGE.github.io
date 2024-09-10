@@ -1,0 +1,192 @@
+/*PAGE*/
+html {
+  background-color: black;
+  font-size: 16px;
+}
+
+/*HEADER*/
+
+header {
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 3;
+  max-height: 80px;
+}
+header a {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+header a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+header a:active {
+  color: black;
+  background-color: black;
+  border-radius: 8px;
+  display: flex;
+  align-items: end;
+  padding: 2px;
+}
+
+/*BODY*/
+
+body {
+  margin: 100px 0px;
+  z-index: 1;
+}
+.events {
+  margin: 10px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 5px;
+}
+.events h1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.events h2 {
+  background-color: black;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  width: 60%;
+  margin-left: 10px;
+  padding: 5px;
+}
+.events p {
+  color: black;
+  margin-left: 10px;
+}
+.services {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 5px;
+}
+.services h1 {
+  display: flex;
+  justify-content: center;
+}
+.services h2 {
+  background-color: black;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 10px;
+  width: 20%;
+  padding: 5px;
+}
+.reviews {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 5px;
+}
+.reviews h1 {
+  display: flex;
+  justify-content: center;
+}
+.reviews h2 {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  width: 90%;
+}
+.reviews h3 {
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.reviews h4 {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: end;
+}
+.media {
+  color: white;
+}
+.media h1 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+}
+
+.fig1 {
+
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+  z-index: 2;
+  max-height: 80px;
+}
+
+/*EXCEPTIONS*/
+
+@media only screen and (max-width: 480px) {
+  header {
+    position: static;
+  }
+  body {
+    margin: 0px;
+  }
+  footer {
+    position: static;
+  }
+
+}
